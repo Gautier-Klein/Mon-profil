@@ -1,0 +1,82 @@
+body {
+	background-color: #e5d8bf;
+	color : #94aa2a;	
+	font-size: 21px;
+	font-weight: lighter;
+	font-family: 'Vollkorn', serif;
+	}
+
+h1	{
+	font-family: 'Fascinate Inline', cursive;
+	color : #d55252;
+	line-height: 2.5;
+	text-align : center;
+	letter-spacing: 5px; 
+	text-transform: uppercase;
+	font-size: 32px;
+	}
+
+h2  {
+	text-align: center;
+	font-size: 28px;
+	color : #e47312;
+	font-family: 'Fascinate Inline', cursive;
+	}
+
+h3  {
+	text-align: center;
+	font-size: 28px;
+	color : #e47312;
+	font-family: 'staatliches', cursive;
+	}
+
+p  {
+	text-align: justify;
+
+	}
+
+a  {
+	text-decoration: none;
+	color :#d55252;
+	
+	}
+
+a:hover  {
+	color: #d55252;
+	font-weight: bold;
+	}
+
+.everything {
+	width: 85%;     
+	margin: 0px auto;
+
+	@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+	@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+	@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+	}
+
+.intro {
+	margin: 60px;
+    padding: 60px;
+    color: #e47312;
+    background: #94aa2a52;
+    border-radius: 5px;                  
+	box-shadow: 0 10px 30px rgba(0,0,0,.2);
+	}
+
